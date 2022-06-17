@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div>
+      <h2><span class="logo">Porto</span>Folio</h2>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <a href="#Home"><li>Home</li></a>
+      <a href="#Servico"><li>Serviços</li></a>
+      <a href="#conhecimento"><li>Conhecimentos</li></a>
+      <a href="#Contatos"><li>Meus contatos</li></a>
+    </ul>
+  </section>
+    </header>
+    <header class="logo">
+        <img src="#" alt="">
+    </header>
+    <main>
+      <div class="cabeçalho">
+        <header class="hearder-2">
+          <img class="img-logo" src="1472e8e0-8dd8-4abc-aed0-155c0a4ee1bf.jpg" alt="">
+          <h2>Leandro Augusto</h2>
+          <h1 class="animation">Full-Stack Dev e Desing</h1>
+          <div class="logo-rede-social">
+            <a href="https://www.instagram.com/xleandrox_1.7/" target="_blank"><img class="rede-social" src="instagram.png" alt=""></a>
+            <a href="" target="_blank"><img class="rede-social" src="whatsapp.png" alt=""></a>
+          </div>
+        </header>
+      </div>
+      <article>
+        <!--~~~~~~~~~~~~~-->
+        <div data-anime="left">
+          <h2 class="h2-main" id="Home">Apresentação</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsa esse minus et ullam inventore nemo necessitatibus ipsum alias dolor quam in ipsam repellat quibusdam magni, iusto, porro dolorem aliquam.</p>
+        </div>
+        <!--~~~~~~~~~~~~-->
+        <!--Serviços-->
+        <div data-anime="right">
+          <h2 id="Servico">Meus Serviços</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa a debitis, praesentium voluptatibus voluptates consequuntur ipsam expedita? Quis est earum dicta ipsam rerum, itaque molestiae velit id fuga, repellat voluptatem.</p>
+        </div>
+        <!--~~~~~~~~~~~~-->
+      </article>
+      <!--Cohecimentos-->
+      <div class="conhecimentos-leandro" data-anime="left">
+        <h2 id="conhecimento">Conhecimentos:</h2>
+        <div>
+          <p>Programação</p> <p>Software</p> <p>Segurança da Informação</p> <p>Hacking</p>
+        </div>
+      </div>
+      <article>
+        <!--~~~~~~~~~~~~-->
+        <div data-anime="left">
+          <h2 id="Contatos">Entre em Contato:</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam libero quibusdam aut iste dolores harum, architecto magnam illo magni consequuntur natus distinctio enim nam ipsum quasi dolorem blanditiis eius aperiam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ab repellat, pariatur qui aliquid, veritatis vero ducimus voluptas cumque totam eos dolorum iure temporibus deserunt quod quam nostrum, consequatur earum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dignissimos rem omnis cum consequuntur veniam unde consequatur aut dicta reiciendis? Temporibus assumenda, sed molestias veniam voluptas fuga distinctio eos perspiciatis.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, harum inventore. Odio numquam odit porro rem modi, voluptate, cumque, tempora nulla nostrum architecto eligendi molestiae illo obcaecati adipisci ab itaque?
+          </p>
+        </div>
+        <!--~~~~~~~~~~~~-->
+      </article>
+    </main>
+    <footer>
+      <p>Ola mundo! </p>
+    </footer>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+    </script>
+    <script src="siee.js"></script>
+</body>
+</html>
