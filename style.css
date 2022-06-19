@@ -189,6 +189,7 @@ header  {
 }
 
 .img-logo {
+  max-width: 1000px;
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -269,12 +270,14 @@ footer {
    padding: 10px;
 }
 
-.contatos {
+.div-contatos {
+  
   max-width: 1000px;
-  min-width: 320;
+  min-width: 320px;
 }
 
 .div-contato li {
+  list-style-position: inside;
   font-size: normal;
 }
 
@@ -284,4 +287,8 @@ main p {
 
 main {
   overflow-x: hidden;
+}
+
+article strong {
+  font-weight: bolder;
 }
