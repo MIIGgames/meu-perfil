@@ -180,6 +180,8 @@ header h1 {
   }
 
 .hearder-2 {
+  margin: auto;
+  max-width: 1000px;
   text-align: center;
   margin: 50px;
 }
@@ -189,7 +191,6 @@ header  {
 }
 
 .img-logo {
-  max-width: 1000px;
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -277,7 +278,6 @@ footer {
 }
 
 .div-contato li {
-  list-style-position: inside;
   font-size: normal;
 }
 
