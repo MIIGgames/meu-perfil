@@ -180,7 +180,6 @@ header h1 {
   }
 
 .hearder-2 {
-  padding: 50px;
   max-width: 1000px;
   margin: auto;
   text-align: center;
@@ -272,7 +271,6 @@ footer {
 }
 
 .div-contatos {
-  colums: 2;
   max-width: 1000px;
   min-width: 320px;
 }
