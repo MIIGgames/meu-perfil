@@ -272,13 +272,9 @@ footer {
 }
 
 .div-contatos {
-  
+  colums: 2;
   max-width: 1000px;
   min-width: 320px;
-}
-
-.div-contato li {
-  font-size: normal;
 }
 
 main p {
