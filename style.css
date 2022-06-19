@@ -269,11 +269,19 @@ footer {
    padding: 10px;
 }
 
-footer > p {
-  font-size: 1.2em;
-  text-align: center;
+.contatos {
+  max-width: 1000px;
+  min-width: 320;
+}
+
+.div-contato li {
+  font-size: normal;
 }
 
 main p {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  overflow-x: hidden;
 }
