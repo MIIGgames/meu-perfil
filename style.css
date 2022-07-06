@@ -351,3 +351,16 @@ strong {
   background-color: black;
   border-radius: 10px;
 }
+
+.meu-site {
+  text-decoration: none;
+  color: blue;
+  text-align: center;
+  font-size: 1.2em;
+
+}
+
+.meu-site:hover {
+  padding: 5px;
+  background-color: #222;
+}
