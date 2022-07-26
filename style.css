@@ -313,25 +313,42 @@ table {
 /*div dos meus serviços*/
 
 .container {
-  max-width: 1000px;
-  margin: auto;
   display: flex;
-  justify-content: center;
   flex-direction: row;
-  padding: 10px;
-  line-height: 25vh;
+  justify-content: center;
+  margin: auto;
 }
 
-.container div {
-  border-radius: 10px;
+.bloco1 {
   background-color: #222;
-  width: 30vw;
-  height: 30vh;
-  margin: 10px;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
 }
 
-.bloco{
+.bloco1 p {
+  color: white;
   text-align: center;
+  margin: 120px 30px;
+}
+
+.bloco2 p {
+  color: white;
+  text-align: center;
+  margin: 120px 30px;
+}
+
+.bloco2 {
+  margin: 20px;
+  background-color: #222;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+}
+
+.text-servico {
+
 }
 
 
@@ -352,6 +369,11 @@ table {
   color: black;
   text-decoration: none;
   padding: 10px;
+}
+
+.curriculo {
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 .img-curriluco {
