@@ -58,8 +58,14 @@ header h1 {
   padding: 0;
 }
 
+.menu > a:hover {
+  background-color: #222;
+  border-radius: 10px;
+}
+
 .menu > a {
   color: blue;
+  padding: 8px;
   margin: 0 1rem;
   overflow: hidden;
   text-decoration: none;
@@ -78,6 +84,7 @@ header h1 {
 #menu-toggle {
   display: none;
 }
+
 
 .menu-button,
 .menu-button::before,
@@ -305,6 +312,27 @@ table {
 
 /*div dos meus serviços*/
 
+.container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+  line-height: 25vh;
+}
+
+.container div {
+  border-radius: 10px;
+  background-color: #222;
+  width: 30vw;
+  height: 30vh;
+  margin: 10px;
+}
+
+.bloco{
+  text-align: center;
+}
 
 
 .contato {
